@@ -1,6 +1,2 @@
-import math 
-import random
-
-print('hello world')
-if 1 = 1:
-  print("ok")
+def user_input():
+  num = input("enter a number")
