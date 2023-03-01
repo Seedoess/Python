@@ -22,19 +22,19 @@ q. ===> quit
       num1 = user_input()
       num2 = user_input()
       result = num1 + num2
-      print(f"The sum of {num1} and {num2} is {result}")
+      print(f"The sum of {num1} and {num2} is ===================> {result}")
       return user_options()
     elif option == "2":
       num1 = user_input()
       num2 = user_input()
       result = num1 - num2
-      print(f"The sum of {num1} and {num2} is {result}")
+      print(f"The sum of {num1} and {num2} is ===================> {result}")
       return user_options()
     elif option == "3":
       num1 = user_input()
       num2 = user_input()
       result = num1 * num2
-      print(f"The sum of {num1} and {num2} is {result}")
+      print(f"The sum of {num1} and {num2} is ===================> {result}")
       return user_options()
     elif option == "3":
       num1 = user_input()
@@ -44,11 +44,11 @@ q. ===> quit
         return
       else:
         result = num1 / num2
-        print(f"The divisor of {num1} ÷ {num2} is {result}")
+        print(f"The divisor of {num1} ÷ {num2} is ===================> {result}")
         return user_options()
     elif option == "q":
       print("GoodBey!!!!!!!!")
       break
     else:
       print("Unknown option. try again.")
-user_input()
+user_options()
