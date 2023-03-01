@@ -1,2 +1,9 @@
 def user_input():
-  num = input("enter a number")
+  while True:
+    num = input("enter a number")
+    try:
+      num = int(num)
+      break
+    except:
+      print("Enter a number!!!")
+    return num
