@@ -49,6 +49,7 @@ q. ===> quit
     elif option == "q":
       print("GoodBey!!!!!!!!")
       break
+      bre
     else:
       print("Unknown option. try again.")
 user_options()
