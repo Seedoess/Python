@@ -22,34 +22,34 @@ q. ===> quit
       num1 = user_input()
       num2 = user_input()
       result = num1 + num2
-      print(f"The sum of {num1} and {num2} is ===================> {result}")
-      return user_options()
+      print(f"Sum of {num1} and {num2} is ===================> {result}")
+      continue
     elif option == "2":
       num1 = user_input()
       num2 = user_input()
       result = num1 - num2
-      print(f"The sum of {num1} and {num2} is ===================> {result}")
-      return user_options()
+      print(f"Diffrens of {num1} and {num2} is ===================> {result}")
+      continue
     elif option == "3":
       num1 = user_input()
       num2 = user_input()
       result = num1 * num2
-      print(f"The sum of {num1} and {num2} is ===================> {result}")
-      return user_options()
-    elif option == "3":
+      print(f"{num1}'s are {num2} is ===================> {result}")
+      continue
+    elif option == "4":
       num1 = user_input()
-      num2 = user_input()
-      if num2 == 0:
-        print("Enter more than zero")
-        return
-      else:
-        result = num1 / num2
-        print(f"The divisor of {num1} ÷ {num2} is ===================> {result}")
-        return user_options()
+      while True:
+        num2 = user_input()
+        if num2 == 0:
+          print("Enter more than zero")
+        else:
+          break
+      result = num1 / num2
+      print(f"division of {num1} ÷ {num2} is ===================> {result}")
+      continue
     elif option == "q":
       print("GoodBey!!!!!!!!")
       break
-      bre
     else:
       print("Unknown option. try again.")
 user_options()
